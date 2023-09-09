@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creaciones maruan</title>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css personal -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- iconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/562d327e55.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- menu y el logo -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
+        <div class="container-fluid">
+            <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="img/LOGO_50942086 - Maria Castillo.jpeg" width="50px" alt="" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <!-- para alinear el menu de enlaces a la derecha
+             <ul class="navbar-nav mx-auto me-2 navbar-nav-scroll">-->
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <!-- productos -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="televisor.html">Televisores</a></li>
+                  <li><a class="dropdown-item" href="celular.html">Celulares</a></li>
+                 
+                  <li><a class="dropdown-item" href="computador.html">Computadores</a></li>
+                  <li><a class="dropdown-item" href="table.html">Tablets</a></li>
+                </ul>
+              </li>
+
+              <!-- servicios -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#domicilio">Domicilios</a></li>
+                  <li><a class="dropdown-item" href="#pagos">Pago Online</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="soporte.html">Soporte Técnico</a></li>
+                  <li><a class="dropdown-item" href="asesorias.html">Asesorias</a></li>
+                </ul>
+              </li>
+             <!-- contacto -->
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+             <!-- simulador -->
+              <li class="nav-item">
+                <a class="nav-link" href="simulador.html">Simulador</a>
+              </li>
+
+              <!-- enlaces redes sociales -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+
+             <a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Agendar Cita</a>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider de images -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/control-game-new.jpg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/producto-teclado-v2.jpg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/erickson-celular.jpg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- fin slider -->
+
+      <!-- novedades - card groups -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="novedades">
+        <h2 class="titulo">PRODUCTOS DESTACADOS</h2>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen1_50942086 - Maria Castillo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pijamas largas</h5>
+              <p class="card-texto"></p>pijama de flores color azul como el mar </p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen2_50942086 - Maria Castillo.jpeg""> 
+            <div class="card-body">
+              <h5 class="card-title">pijama short</h5>
+              <p class="card-text">pijama corta de mariposa rosa </p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen3_50942086 - Maria Castillo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">pijama camiseta </h5>
+              <p class="card-text">pijama larga de camiseta comoda para tus dias frios .</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen4_50942086 - Maria Castillo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">pijama corta</h5>
+              <p class="card-text">pijama negra con flamencos rosas .</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen6_50942086 - Maria Castillo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">pijama corta pandas </h5>
+              <p class="">pijama de panda comoda para tus mejores sueños .</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class=card h-100">
+            <img src="img/Imagen7_50942086 - Maria Castillo.jpeg"" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">pijama winnie pooh</h5>
+              <p class="card-text"></p>.pijama mostaza con azul larga winnie pooh </p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- call action - promoción-->
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="jumbotron">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" id="pagos">Promoción y pagos</h1>
+          <p class="col-md-8 fs-4">
+            efectivo 
+          <p class="col-md-8 fs-4">
+            Realiza tus pagos online PSE efecty envios contra entrega . 
+          </p>
+
+
+          <h1 class="display-5 fw-bold" id="domicilio">Domicilios</h1>
+          <p class="col-md-8 fs-4">
+             
+          </p>
+          <p class="col-md-8 fs-4">
+           Domicilios solamente en area metropolitana. 
+          </p>
+          <button class="btn btn-primary btn-lg notica">Solicitar información</button>
+        </div>
+      </div>
+
+      <main>
+        <div class="container py-4">
+          <header class="pb-3 mb-4 border-bottom">
+            <span class="fs-4">Asesorias</span>
+          </header>
+        </div>
+
+        <div class="container-fluid py-5">
+          <div class="accordion container-fluid" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 Hosting y dominio
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>¿Qué es maruan  en Internet?</strong> 
+                  . <b>septiembrte 09 09 2023</b> 
+                </div>
+              </div>
+              <strong>maruan es una empresa de confeccion de pijama para todo tipo de persona  se ocupa del diseño y fabricación de pijamas para toda la familia con estampado de tu gusto </strong>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  mision 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Creaciones MaRuAn es una empresa del sector textil que se ocupa del diseño y fabricación de pijamas para toda la familia con reconocimiento a nivel local y regional por su alta calidad, diseños exclusivos e innovadores para estar a la vanguardia de las tendencias de la moda actual con gran sentido de responsabilidad y puntualidad en la entrega de sus productos y el manejo de buenas relaciones con los clientes así como la comercialización de precio justos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  vision
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Ser una empresa reconocida y destacada en el sector textil en el diseño fabricación y comercialización de pijamas mediante la utilización de insumos de excelente calidad lo que nos permita posicionarnos en el mercado a nivel regional, siendo una de las mejores por su innovación, seriedad y cumplimiento..
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- videos -->
+
+        <!-- novedades - card groups -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="videos">
+        <h2 class="titulo">Videos</h2>
+        <div class="col">
+          <div class="card h-50">
+            <iframe width="585" height="720" src="https://www.youtube.com/embed/meuezpl1Yl8" title="patrón básico de pijamas,mañanita, blusa y short paso a paso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             
+            <div class="card-body">
+              <h5 class="card-title">exhibicion de pijamas</h5>
+              <p class="card-text">demostracion de nuestros productos que elaboramos cada dia</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <iframe width="585" height="720" src="https://www.youtube.com/embed/OU5nOArXBbI" title="Desfile de pijamas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             
+            <div class="card-body">
+              <h5 class="card-title">modelaje de nuestros productos</h5>
+              <p class="card-text">modelacion de nuestros productos de cada temporada</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <iframe width="585" height="720" src="https://www.youtube.com/embed/UUqLHKVhY9g" title="Trazo, corte y confección de pijama en satín" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             
+            <div class="card-body">
+              <h5 class="card-title">creacion de nuetros productos</h5>
+              <p class="card-text">muestra de la elaboracion de nuestros productos</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+
+      <!-- footer - BEM en html y css -->
+      <footer id="page-footer">
+        <div class="ftcontainer">
+          <div class="footer__menu">
+            <figure>
+              <img src="/img/logo.png" alt="" class="footer__logo">
+            </figure>
+            <p class="ft-social-row">
+              <a class="ft-social" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a class="ft-social" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a class="ft-social" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a class="ft-social" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </p>
+          </div>
+          <!-- horarios -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Horarios</h4>
+            <span class="footer__info">
+              Lunes a Viernes: 8:00 am a 5:00 pm | Sábados: 10:00 am a 4:00 pm
+            </span>
+          </div>
+          <!-- Enlaces -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Enlaces</h4>
+            <ul class="ft-link">
+              <li class="footer__link">
+                <a href="#" target="_blank"  class="ft-social">Inicio</a>
+              </li>
+              <li class="footer__link">
+                <a href="nosotros.html" target="_blank"  class="ft-social">Nosotros</a>
+              </li>
+              <li class="footer__link">
+                <a href="condiciones.html" target="_blank"  class="ft-social">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+          <!-- contactos -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Contactos</h4>
+            <p class="footer__info">
+              <i class="fa-solid fa-envelope"></i>
+              emagil: creacionesMaRuan@gmail.co
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-mobile"></i>
+              Celular: 3105188168
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-location-dot"></i>
+              Dirección: Calle 129s #54-112 Caldas, barrio la planta
+            </p>
+          </div>
+        </div>
+        <div class="footer-credits">
+          &copy; 2023. creaciones maruam - All rights reserved - Desing: <a href="#" target="_blank">santiago & valentina </a>
+        </div>
+
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
